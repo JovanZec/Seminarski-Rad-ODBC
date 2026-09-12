@@ -1,0 +1,8 @@
+ISPRAVLJENA VERZIJA - 12.09.2026
+
+1. Ispravljena C# greška u StudentRepository.cs: ExecuteReaderAsync vraća DbDataReader, pa MapStudent sada prima DbDataReader.
+2. Dodat using System.Data.Common.
+3. Connection string promenjen sa ODBC Driver 18 na ODBC Driver 17, koji je instaliran na računaru korisnika.
+4. README i tekstualna uputstva usklađeni sa ODBC Driver 17.
+
+Napomena: za pun rad CRUD aplikacije i dalje mora postojati SQL Server instanca (podrazumevano localhost\SQLEXPRESS) i baza OdbcSeminarski.
