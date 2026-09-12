@@ -1,0 +1,14 @@
+KRATAK PLAN ZA ODBRANU
+
+1. Tema rada je ODBC - Open Database Connectivity i njegova uloga u razvoju informacionih sistema.
+2. ODBC je standardizovan interfejs preko kog aplikacija pristupa različitim izvorima podataka pomoću odgovarajućeg drajvera.
+3. Osnovni tok je: aplikacija -> ODBC API/Driver Manager -> ODBC drajver -> baza podataka.
+4. Moj praktični primer je ASP.NET Core MVC aplikacija za evidenciju studenata.
+5. Projekat je podeljen na tri sloja: Web, BLL i DAL.
+6. Web je prezentacioni sloj i koristi ViewModel-e. Kontroler je tanak i poziva samo servis iz BLL-a.
+7. BLL sadrži poslovnu logiku: validaciju, normalizaciju i proveru jedinstvenog broja indeksa.
+8. DAL jedini komunicira sa bazom i koristi System.Data.Odbc.
+9. Za bazu je korišćen SQL Server i Microsoft ODBC Driver 17 for SQL Server.
+10. CRUD operacije se rade parametrizovanim SQL upitima. Kod ODBC-a se koriste ? placeholder-i i redosled parametara je važan.
+11. Prednost ovog pristupa je razdvajanje odgovornosti i lakše održavanje sistema.
+12. Ako bi se promenio način pristupa bazi, najveći deo promena bio bi lokalizovan u DAL sloju.

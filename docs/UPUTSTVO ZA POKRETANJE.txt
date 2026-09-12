@@ -1,0 +1,22 @@
+UPUTSTVO ZA POKRETANJE PROJEKTA U VISUAL STUDIO-U
+
+1. Instaliraj/otvori Visual Studio sa workload-om "ASP.NET and web development".
+2. Potrebni su .NET 8 SDK, SQL Server Express i Microsoft ODBC Driver 17 for SQL Server.
+3. U SQL Server Management Studio-u otvori database/CreateDatabase.sql i klikni Execute.
+4. Otvori OdbcSeminarski.sln u Visual Studio-u.
+5. U Solution Explorer-u desni klik na OdbcIS.Web -> Set as Startup Project.
+6. Ako koristiš SQL Server Express na localhost\\SQLEXPRESS, connection string je već podešen.
+   Ako je naziv servera drugačiji, izmeni Server= deo u src/OdbcIS.Web/appsettings.json.
+7. Klikni Build -> Build Solution.
+8. Pokreni projekat sa Ctrl+F5 ili zelenim dugmetom.
+9. U browser-u se otvara stranica Evidencija studenata.
+
+ŠTA DEMONSTRIRATI NA ODBRANI
+- Prikaz liste studenata (SELECT preko ODBC-a).
+- Dodavanje novog studenta (BLL validacija + INSERT preko ODBC-a).
+- Pokušaj unosa istog broja indeksa (poslovno pravilo u BLL-u).
+- Izmena studenta (UPDATE).
+- Brisanje studenta (DELETE).
+- Pokazati tri projekta: Web, BLL i DAL.
+- Pokazati da Web projekat nema referencu direktno na DAL.
+- U StudentRepository.cs pokazati OdbcConnection, OdbcCommand i ? parametre.
