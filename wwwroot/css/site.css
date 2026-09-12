@@ -1,0 +1,4 @@
+body { background: #f6f7f9; }
+.card { border: 0; border-radius: 14px; }
+.table > :not(caption) > * > * { padding: .9rem 1rem; }
+h1 { font-weight: 700; }

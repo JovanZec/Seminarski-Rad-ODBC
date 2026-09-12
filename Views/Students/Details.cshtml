@@ -1,0 +1,12 @@
+@model StudentViewModel
+@{ ViewData["Title"] = "Detalji studenta"; }
+<h1>Detalji studenta</h1>
+<div class="card shadow-sm mt-3"><div class="card-body">
+    <dl class="row mb-0">
+        <dt class="col-sm-3">Ime i prezime</dt><dd class="col-sm-9">@Model.FirstName @Model.LastName</dd>
+        <dt class="col-sm-3">Broj indeksa</dt><dd class="col-sm-9">@Model.IndexNumber</dd>
+        <dt class="col-sm-3">Email</dt><dd class="col-sm-9">@Model.Email</dd>
+        <dt class="col-sm-3">Godina studija</dt><dd class="col-sm-9">@Model.StudyYear</dd>
+    </dl>
+</div></div>
+<div class="mt-3"><a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model.Id">Izmeni</a> <a class="btn btn-outline-secondary" asp-action="Index">Nazad</a></div>

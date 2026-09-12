@@ -1,0 +1,8 @@
+@model StudentViewModel
+@{ ViewData["Title"] = "Brisanje studenta"; }
+<h1>Brisanje studenta</h1>
+<div class="alert alert-warning mt-3">Da li sigurno želite da obrišete studenta <strong>@Model.FirstName @Model.LastName</strong> (@Model.IndexNumber)?</div>
+<form asp-action="Delete" asp-route-id="@Model.Id" method="post">
+    <button class="btn btn-danger" type="submit">Obriši</button>
+    <a class="btn btn-outline-secondary" asp-action="Index">Odustani</a>
+</form>

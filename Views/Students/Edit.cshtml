@@ -1,0 +1,12 @@
+@model StudentViewModel
+@{ ViewData["Title"] = "Izmena studenta"; }
+<h1>Izmena studenta</h1>
+<form asp-action="Edit" method="post" class="card card-body shadow-sm mt-3">
+    <input asp-for="Id" type="hidden" />
+    <partial name="_Form" model="Model" />
+    <div class="mt-4 d-flex gap-2">
+        <button type="submit" class="btn btn-primary">Sačuvaj izmene</button>
+        <a asp-action="Index" class="btn btn-outline-secondary">Odustani</a>
+    </div>
+</form>
+@section Scripts { <partial name="_ValidationScriptsPartial" /> }
