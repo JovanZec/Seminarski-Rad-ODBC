@@ -1,0 +1,13 @@
+C:\odbc_seminarski\src\OdbcIS.DAL\bin\Debug\net8.0\OdbcIS.DAL.deps.json
+C:\odbc_seminarski\src\OdbcIS.DAL\bin\Debug\net8.0\OdbcIS.DAL.dll
+C:\odbc_seminarski\src\OdbcIS.DAL\bin\Debug\net8.0\OdbcIS.DAL.pdb
+C:\odbc_seminarski\src\OdbcIS.DAL\obj\Debug\net8.0\OdbcIS.DAL.csproj.AssemblyReference.cache
+C:\odbc_seminarski\src\OdbcIS.DAL\obj\Debug\net8.0\OdbcIS.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\odbc_seminarski\src\OdbcIS.DAL\obj\Debug\net8.0\OdbcIS.DAL.AssemblyInfoInputs.cache
+C:\odbc_seminarski\src\OdbcIS.DAL\obj\Debug\net8.0\OdbcIS.DAL.AssemblyInfo.cs
+C:\odbc_seminarski\src\OdbcIS.DAL\obj\Debug\net8.0\OdbcIS.DAL.csproj.CoreCompileInputs.cache
+C:\odbc_seminarski\src\OdbcIS.DAL\obj\Debug\net8.0\OdbcIS.DAL.dll
+C:\odbc_seminarski\src\OdbcIS.DAL\obj\Debug\net8.0\refint\OdbcIS.DAL.dll
+C:\odbc_seminarski\src\OdbcIS.DAL\obj\Debug\net8.0\OdbcIS.DAL.pdb
+C:\odbc_seminarski\src\OdbcIS.DAL\obj\Debug\net8.0\ref\OdbcIS.DAL.dll
+C:\odbc_seminarski\src\OdbcIS.DAL\obj\Debug\net8.0\OdbcIS.DAL.csproj.Up2Date

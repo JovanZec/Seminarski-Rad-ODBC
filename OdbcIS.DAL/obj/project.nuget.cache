@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "t/ZNeXbNupo=",
+  "success": true,
+  "projectFilePath": "C:\\odbc_seminarski\\src\\OdbcIS.DAL\\OdbcIS.DAL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jovan\\.nuget\\packages\\system.data.odbc\\8.0.0\\system.data.odbc.8.0.0.nupkg.sha512",
+    "C:\\Users\\Jovan\\.nuget\\packages\\system.text.encoding.codepages\\8.0.0\\system.text.encoding.codepages.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
